@@ -11,6 +11,9 @@ namespace ConsoleApp
             // Commit: first change
             Console.WriteLine("First change");
             
+            // Commit: second change
+            Console.WriteLine("Second change");
+            
             /*
             int[] num = {1,2,3,4,5,6};
             try { Console.WriteLine(num[7]);}
