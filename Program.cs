@@ -31,7 +31,6 @@ namespace ConsoleApp
             long longMax = long.MaxValue;
             ulong ulongMin = ulong.MinValue;
             ulong ulongMax = ulong.MaxValue;
-
             Console.WriteLine($"sbyte from {sbyteMin} to {sbyteMax}");
             Console.WriteLine($"byte from {byteMin} to {byteMax}");
             Console.WriteLine($"short from {shortMin} to {shortMax}");
@@ -54,6 +53,13 @@ namespace ConsoleApp
                 Console.WriteLine($"{charNumber} -> {c}");
             }
 
+            Console.WriteLine("------------------------------------------------------");
+            
+            // Commit: String Data type
+            string s = "Hello world , my name is \'ahmed\' \nnew line\n\tanother new line with\\t escape\n\vanother new line with \\v escape \n\fanother new line with \\f escape";
+            Console.WriteLine(s);
+            
+            
             /*
             int[] num = {1,2,3,4,5,6};
             try { Console.WriteLine(num[7]);}
