@@ -13,7 +13,35 @@ namespace ConsoleApp
             
             // Commit: second change
             Console.WriteLine("Second change");
-            
+
+            // Commit: Integer Data Types
+            sbyte sbyteMin = sbyte.MinValue;
+            sbyte sbyteMax = sbyte.MaxValue;
+            byte byteMin = byte.MinValue;
+            byte byteMax = byte.MaxValue;
+            short shortMin = short.MinValue;
+            short shortMax = short.MaxValue;
+            ushort ushortMin = ushort.MinValue;
+            ushort ushortMax = ushort.MaxValue;
+            int intMin = int.MinValue;
+            int intMax = int.MaxValue;
+            uint uintMin = uint.MinValue;
+            uint uintMax = uint.MaxValue;
+            long longMin = long.MinValue;
+            long longMax = long.MaxValue;
+            ulong ulongMin = ulong.MinValue;
+            ulong ulongMax = ulong.MaxValue;
+
+            Console.WriteLine($"sbyte from {sbyteMin} to {sbyteMax}");
+            Console.WriteLine($"byte from {byteMin} to {byteMax}");
+            Console.WriteLine($"short from {shortMin} to {shortMax}");
+            Console.WriteLine($"ushort from {ushortMin} to {ushortMax}");
+            Console.WriteLine($"int from {intMin} to {intMax}");
+            Console.WriteLine($"uint from {uintMin} to {uintMax}");
+            Console.WriteLine($"long from {longMin} to {longMax}");
+            Console.WriteLine($"sbyte from {ulongMin} to {ulongMax}");
+
+
             /*
             int[] num = {1,2,3,4,5,6};
             try { Console.WriteLine(num[7]);}
