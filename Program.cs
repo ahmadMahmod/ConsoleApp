@@ -41,6 +41,18 @@ namespace ConsoleApp
             Console.WriteLine($"long from {longMin} to {longMax}");
             Console.WriteLine($"sbyte from {ulongMin} to {ulongMax}");
 
+            Console.WriteLine("------------------------------------------------------");
+
+            // Commit: Char Data type (ASCII)system
+            ushort charMin = char.MinValue;
+            ushort charMax = char.MaxValue;
+            char c;
+            Console.WriteLine($"char from {charMin} to {charMax}");
+            for(int charNumber = 0;charNumber<=255;charNumber++)
+            {
+                c = Convert.ToChar(charNumber);
+                Console.WriteLine($"{charNumber} -> {c}");
+            }
 
             /*
             int[] num = {1,2,3,4,5,6};
